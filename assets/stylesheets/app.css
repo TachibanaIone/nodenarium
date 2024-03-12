@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply bg-neutral-850 text-white;
+}
+
+main {
+    @apply w-body mx-auto min-h-svh;
+}
+
+hgroup {
+    @apply flex flex-col gap-2 items-center justify-center py-10 border-b-[1px];
+}
+
+h1::before,
+h1::after {
+    content: "";
+    @apply block w-10 h-px bg-white;
+}
+
+h1::before {
+    @apply mr-2;
+}
+
+h1::after {
+    @apply ml-2;
+}
+
+.text-contents {
+    @apply flex flex-col gap-6 mt-6 ml-16 pr-6;
+}
+
+.text-contents h2 {
+    @apply relative text-xl font-bold mb-2;
+}
+
+.text-contents h2::before {
+    content: "";
+    @apply absolute top-1/2 -left-12 w-8 h-px bg-white;
+}
+
+.text-contents p {
+    @apply leading-7;
+}
