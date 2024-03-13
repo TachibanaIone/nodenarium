@@ -7,7 +7,7 @@
 }
 
 main {
-    @apply w-body mx-auto min-h-svh;
+    @apply md:w-body-desktop w-body-mobile mx-auto min-h-svh;
 }
 
 hgroup {
@@ -17,7 +17,7 @@ hgroup {
 h1::before,
 h1::after {
     content: "";
-    @apply block w-10 h-px bg-white;
+    @apply block md:w-10 w-8 h-px bg-white;
 }
 
 h1::before {
@@ -29,7 +29,7 @@ h1::after {
 }
 
 .text-contents {
-    @apply flex flex-col gap-6 mt-6 ml-16 pr-6;
+    @apply flex flex-col gap-6 mt-6 md:ml-16 ml-12 md:pr-6 pr-2;
 }
 
 .text-contents h2 {
@@ -38,7 +38,7 @@ h1::after {
 
 .text-contents h2::before {
     content: "";
-    @apply absolute top-1/2 -left-12 w-8 h-px bg-white;
+    @apply absolute top-1/2 md:-left-12 -left-8 md:w-8 w-5 h-px bg-white;
 }
 
 .text-contents p {

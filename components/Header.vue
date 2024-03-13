@@ -1,7 +1,7 @@
 <template>
     <header class="border-b-[1px] border-white">
         <nav>
-            <ul class="flex justify-end gap-4 w-body mx-auto py-3">
+            <ul class="flex justify-end gap-4 md:w-body-desktop w-body-mobile mx-auto py-3">
                 <li>
                     <nuxt-link to="/">Home</nuxt-link>
                 </li>
@@ -15,3 +15,13 @@
         </nav>
     </header>
 </template>
+
+<style scoped>
+li {
+    @apply transition-colors duration-300;
+}
+
+li:hover {
+    @apply text-neutral-400;
+}
+</style>
