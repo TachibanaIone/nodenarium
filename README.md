@@ -1,75 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Nodenarium
+[![](public/assets/images/hero.webp)](https://nodenarium.net)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+*『――わたしたちはどうして、自らについての詩を書くのでしょうか？』*
 
-## Setup
+Nodenarium（「交点」と「植物園」の合成語）は、現代に誕生した個人サイトのリンク集です。
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Tech stack
+Nodenariumでは以下の技術スタックを採用しています。(See also: `package.json`)。
+- [Nuxt](https://github.com/nuxt/nuxt) / [Vue.js](https://github.com/vuejs/core)
+- [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
