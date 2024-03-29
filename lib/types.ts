@@ -1,4 +1,4 @@
-export const SITE_CATEGORIES = ["Diary", "Computer", "Photo", "Poetry"] as const
+export const SITE_CATEGORIES = ["Diary", "Computer", "Photo", "Poetry", "Novel"] as const
 
 export type SiteInfo = {
     name: string
