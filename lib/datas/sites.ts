@@ -22,4 +22,11 @@ export const sites: SiteInfo[] = [
         categories: ["Diary", "Computer", "Photo", "Poetry"],
         registeredAt: new Date("2024-03-13"),
     },
+    {
+        name: "あまねけ！",
+        domain: "ama.ne.jp",
+        thumbnail: "ama-ne-jp.webp",
+        categories: ["Computer", "Novel"],
+        registeredAt: new Date("2024-03-29"),
+    },
 ]
