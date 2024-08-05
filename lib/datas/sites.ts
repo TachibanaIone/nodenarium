@@ -2,7 +2,7 @@ import type { SiteInfo } from "~/lib/types"
 
 export const sites: SiteInfo[] = [
     {
-        name: "Digial Rain Memories",
+        name: "Digital Rain Memories",
         domain: "blog.tachibanai.one",
         thumbnail: "digital-rain-memories.webp",
         categories: ["Diary", "Computer"],
