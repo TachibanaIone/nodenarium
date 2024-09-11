@@ -6,6 +6,7 @@ export const sites: SiteInfo[] = [
         domain: "blog.tachibanai.one",
         thumbnail: "internet-explorer.webp",
         categories: ["Diary", "Computer"],
+        techStack: ["Svelte"],
         registeredAt: new Date("2024-03-13"),
     },
     {
@@ -13,6 +14,7 @@ export const sites: SiteInfo[] = [
         domain: "gosuikikou.net",
         thumbnail: "gosuikikou.webp",
         categories: ["Diary"],
+        techStack: ["Svelte"],
         registeredAt: new Date("2024-03-13"),
     },
     {
@@ -20,6 +22,7 @@ export const sites: SiteInfo[] = [
         domain: "hanazonochateau.net",
         thumbnail: "hanazonochateau.webp",
         categories: ["Diary", "Computer", "Photo", "Poetry"],
+        techStack: ["Hugo"],
         registeredAt: new Date("2024-03-13"),
     },
     {
@@ -27,6 +30,7 @@ export const sites: SiteInfo[] = [
         domain: "ama.ne.jp",
         thumbnail: "ama-ne-jp.webp",
         categories: ["Computer", "Novel"],
+        techStack: [],
         registeredAt: new Date("2024-03-29"),
     },
     {
@@ -34,13 +38,15 @@ export const sites: SiteInfo[] = [
         domain: "gitdmnt.github.io",
         thumbnail: "gitdmnt-github-io.webp",
         categories: ["Diary", "Computer"],
-        registeredAt: new Date("2024-03-29"),
+        techStack: ["Astro"],
+        registeredAt: new Date("2024-09-12"),
     },
     {
         name: "みそは入ってませんけど",
         domain: "not-miso-inside.net",
         thumbnail: "not-miso-inside.webp",
         categories: ["Diary", "Novel"],
-        registeredAt: new Date("2024-03-29"),
+        techStack: ["Rust"],
+        registeredAt: new Date("2024-09-12"),
     },
 ]
