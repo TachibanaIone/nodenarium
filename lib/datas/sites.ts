@@ -2,9 +2,9 @@ import type { SiteInfo } from "~/lib/types"
 
 export const sites: SiteInfo[] = [
     {
-        name: "Digital Rain Memories",
+        name: "いんたーねっと☆えくすぷろーらー！",
         domain: "blog.tachibanai.one",
-        thumbnail: "digital-rain-memories.webp",
+        thumbnail: "internet-explorer.webp",
         categories: ["Diary", "Computer"],
         registeredAt: new Date("2024-03-13"),
     },
@@ -27,6 +27,20 @@ export const sites: SiteInfo[] = [
         domain: "ama.ne.jp",
         thumbnail: "ama-ne-jp.webp",
         categories: ["Computer", "Novel"],
+        registeredAt: new Date("2024-03-29"),
+    },
+    {
+        name: "宇田の家さがされ",
+        domain: "gitdmnt.github.io",
+        thumbnail: "gitdmnt-github-io.webp",
+        categories: ["Diary", "Computer"],
+        registeredAt: new Date("2024-03-29"),
+    },
+    {
+        name: "みそは入ってませんけど",
+        domain: "not-miso-inside.net",
+        thumbnail: "not-miso-inside.webp",
+        categories: ["Diary", "Novel"],
         registeredAt: new Date("2024-03-29"),
     },
 ]
