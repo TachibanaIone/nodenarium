@@ -22,7 +22,7 @@ export const sites: SiteInfo[] = [
         domain: "hanazonochateau.net",
         thumbnail: "hanazonochateau.webp",
         categories: ["Diary", "Computer", "Photo", "Poetry"],
-        techStack: ["Hugo"],
+        techStack: ["Hugo", "React"],
         registeredAt: new Date("2024-03-13"),
     },
     {
@@ -30,7 +30,7 @@ export const sites: SiteInfo[] = [
         domain: "ama.ne.jp",
         thumbnail: "ama-ne-jp.webp",
         categories: ["Computer", "Novel"],
-        techStack: [],
+        techStack: ["Python"],
         registeredAt: new Date("2024-03-29"),
     },
     {
