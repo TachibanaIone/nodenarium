@@ -3,6 +3,7 @@ export const TECH_DICT = {
     Astro: "#ff5903",
     Svelte: "#ff3e00",
     Hugo: "#ff4088",
+    React: "#58c4dc",
     Rust: "#dfa484",
     Python: "#3572a5",
 }
